@@ -1,0 +1,37 @@
+body{
+   text-align: center;
+}
+
+#triangleDisplay{
+   margin-top: 10px;
+}
+#triangleDisplay input{
+   width: 100px;
+   margin: 10px 5px;
+   text-align: center;
+}
+#triangleBtn{
+    margin-top: 10px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#triangleBtn:hover{
+     background-color: lightblue;
+     color: black;
+}
+
+#triangleBtn:active{
+    background-color: lightgreen;
+    color: black;
+}
+
+#triangleOutput{
+    margin-top: 20px;
+    width: 500px;
+    height: 20px;
+    font-size: 16px;
+    padding: 10px;
+    resize: none;
+}
